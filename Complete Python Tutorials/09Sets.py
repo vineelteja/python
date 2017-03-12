@@ -2,7 +2,6 @@
 print("# **********---- Sets  \n")
 
 
-# Sets is a data structure to store various data
 # A set is an unordered collection with no duplicate elements.
 # Set objects also support mathematical operations like union, intersection, difference, and symmetric difference.
 # Curly braces or the set() function can be used to create sets.

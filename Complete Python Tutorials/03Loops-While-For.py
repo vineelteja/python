@@ -54,7 +54,7 @@ for num in range(10):
 def functionName():                                 # Compiler will return error if there is no body to the function
     pass                                            # That kind of situation can be handled by using pass
 
-class Name:                                         # Compiler will return error if there is no  to the class
+class Name:                                         # Compiler will return error if there is no body to the class
     pass                                            # That kind of situation can be handled by using pass
 
 if (9 != 10):                                       # Compiler will return error if there is no body to the function

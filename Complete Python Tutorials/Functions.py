@@ -86,6 +86,8 @@ print("Adding default values ",funMath())             # Even though we are not g
 print("\nif you specify the argument, the value overrides the default argument")
 print("Adding values ",funMath(10,10))
 print('\n' * 2)
+
+
 def funNumbers(n = 50):                          # return Fibonacci series up to n
     """Return a list containing the Fibonacci series up to n."""
     result = []                             # initializing list
@@ -152,12 +154,12 @@ def argsFunList(*anything):
     for each in anything:
         print(each)
 argsFunList(*simpleList)                # the process of pass each element of the list as an argument is called Unpacking Argument Lists
-
+print('\n' * 2)
 # **kwargs
 # At some point in your programming life, you might want to give and pass lengthy keyword arguments with values to function
 # Instead of typing them all in function definition you can use **args
 
-print('\n' * 2)
+
 
 
 def funKeyArgs(**funkeyword):

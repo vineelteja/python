@@ -1,1 +1,4 @@
-print((1, 2, ('aa', 'ab'))   < ( 2, ('abc', 'a'), 4, 5, 6))
+import sys
+sys.ps1
+sys.ps2
+sys.ps1 = 'C> '

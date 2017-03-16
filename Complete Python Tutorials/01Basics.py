@@ -44,6 +44,14 @@ _water = [10, 'I', "eleven"]        # This is a list
 print("Hello World")
 
 
+# we have successfully printed Hello World on the terminal
+
+# One of the basic operation to print the values using the print statement is
+# after double quotes use a comma and type the variable, we have already declared variables, a, air, A, _water lets use
+print("I am a", a)                  # use ',' after double quotes and use the declared variable to print the value
+print("Type of a is: ", type(a))    # type(a) is an inbuilt function which returns what kind of value is 'a'
+
+
 # I have declared a, air, A, _water above, but to know what type of value the
 # variable is holding we have to use - type()
 

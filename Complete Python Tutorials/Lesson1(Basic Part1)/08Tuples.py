@@ -17,3 +17,15 @@ print('\n' * 2)
 
 a = 99, 98, 97
 print(type(a), "a is an example of tuple packing, The values assigned to a are packed together in a tuple")
+print('\n' * 2)
+
+
+# **********---- Tuple unpacking
+print("Tuple unpacking")
+x = [(1, 2), (3, 4), (5, 6)]
+for each in x:
+    print(each)                 # This prints the tuples in X, but to print single values
+
+for (a, b) in x:                 # This way print a or print b, this is calling tuple unpacking
+    print(a)
+    print(b)

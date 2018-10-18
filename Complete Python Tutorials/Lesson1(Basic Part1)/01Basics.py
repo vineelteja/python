@@ -127,7 +127,7 @@ b = 2 in a
 # in returns true or false, in this case 2 is in a, so it returns true
 
 c = 7 not in a
-# not in returns true or false, in this case 7 is not in a, so it returns false
+# not in returns true or false, in this case 7 is not in a, so it returns true
 
 
 # **********---- Basic Method/Functions
